@@ -11,8 +11,7 @@ document.querySelector("#yes").addEventListener("click", function () {
       <source src="https://s17.aconvert.com/convert/p3r68-cdx67/fj4ah-rwyt9.mp4" type="video/mp4">
     </video>
     <audio autoplay loop>
-      <source src="
-      2024-05-14-210909893.mp3" type="audio/mp3">
+      <source src="https://s17.aconvert.com/convert/p3r68-cdx67/fj4ah-rwyt9.mp4" type="audio/mp4">
     </audio>
   `;
 
@@ -29,4 +28,3 @@ document.querySelector("#no").addEventListener("mouseover", function () {
   this.style.top = Math.random() * width + "px";
   this.style.left = Math.random() * height + "px";
 });
-
