@@ -5,8 +5,9 @@ document.querySelector("#yes").addEventListener("click", function () {
   let question = document.getElementById("question");
   let message = document.getElementById("answer");
 
-  card.style.backgroundImage =
-    "url('https://img1.picmix.com/output/stamp/normal/5/1/0/1/1171015_f458c.gif')";
+  // Alterando o fundo do cartão para um vídeo
+  card.innerHTML = '<video id="myVideo" width="100%" height="100%" autoplay loop muted><source src="URL_DO_SEU_VIDEO.mp4" type="video/mp4"></video>';
+
   question.style.display = "none";
   message.style.display = "flex";
 });
